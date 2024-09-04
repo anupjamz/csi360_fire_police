@@ -1,3 +1,20 @@
 # Jupyter Notebook-specific
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore checkpoints
 .ipynb_checkpoints/
+
+# Ignore virtual environment directory
 venv/
+
+# Ignore other common environment files
+.env
+.DS_Store
+
+# Ignore OS-specific or IDE-specific files (optional)
+*.swp
+.idea/
+.vscode/
