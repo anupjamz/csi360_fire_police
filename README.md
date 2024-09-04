@@ -5,10 +5,16 @@ This project consolidates U.S. law enforcement and fire agency data into a compr
 
 ## Table of Contents
 - [Description](#description)
+- [Setup](#setup)
 - [Tools and Sources](#tools-and-sources)
 - [Resources](#resources)
 - [Contact](#contact)
 - [About the Data](#about-the-data)
+
+## Setup
+Set the Google Maps API key as an environment variable:
+- On Windows: `set GOOGLE_MAPS_API_KEY=your_api_key`
+- On macOS/Linux: `export GOOGLE_MAPS_API_KEY=your_api_key`
 
 ## Tools and Sources
 - **Excel**: For data wrangling and consolidation.
