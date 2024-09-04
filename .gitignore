@@ -1,14 +1,14 @@
 # Jupyter Notebook-specific
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Ignore Python bytecode files
+# Ignore Python
 __pycache__/
 *.py[cod]
 
-# Ignore checkpoints
-.ipynb_checkpoints/
-
 # Ignore virtual environment directory
 venv/
+lepd_env/
 
 # Ignore other common environment files
 .env
